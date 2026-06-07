@@ -2878,14 +2878,14 @@
         }
 
         /* Tab content */
-        .tab-content>div {
+        .tab-content{
             display: none;
             padding: 25px 0px;
             background: #f9f9f9;
             border-radius: 8px;
         }
 
-        .tab-content>div.active {
+        .tab-content.active {
             display: block;
         }
 

@@ -341,36 +341,39 @@
 
   <!-- @ End Cancellation Policy Modal-->
 
- <section class="">
-        <div class="the-forms"></div>
-        <section class="tabs-container">
+ <section class="tabs-container">
             <div class="tab-wrapper">
                 <button class="tab-nav-btn left"><i class="fa fa-arrow-left"></i></button>
                 <div class="tab-labels">
-                                            <button type="button" class="active" onclick="window.location=&#39;https://nigeriaenergysummit.com/registration?form=vip&#39;">
+                                            <button type="button" class="active">
                             VIP PASS
                         </button>
-                                            <button type="button" class="" onclick="window.location=&#39;https://nigeriaenergysummit.com/registration?form=delegate&#39;">
+                                            <button type="button" >
                             DELEGATE PASS
                         </button>
-                                            <button type="button" class="" onclick="window.location=&#39;https://nigeriaenergysummit.com/registration?form=speaker-code&#39;">
+                                            <button type="button" >
                             I HAVE A SPEAKER CODE
                         </button>
-                                            <button type="button" class="" onclick="window.location=&#39;https://nigeriaenergysummit.com/registration?form=visitor&#39;">
+                                            <button type="button" >
                             VISITOR PASS
                         </button>
-                                            <button type="button" class="" onclick="window.location=&#39;https://nigeriaenergysummit.com/registration?form=code&#39;">
+                                            <button type="button" >
                             I HAVE A CODE
                         </button>
-                                        <button type="button" onclick="window.location=`https://reg.nigeriaenergysummit.com/rooms/book`">
+                                        <button type="button">
                         Reserve Board Room
                     </button>
                 </div>
                 <button class="tab-nav-btn right"><i class="fa fa-arrow-right"></i></button>
             </div>
-             <div class="tab-content" style="margin-top: 30px">
-                                    <div id="vip" class="active">
-                        <div class="form-container">
+             
+
+
+
+  <div class="tab-content active" id="vip"  style="margin-top: 30px">
+      <div class="form-container">
+
+
     <!-- Benefits / Description -->
     <div class="form-benefits">
         <div class="col-sm-12 form-body" style="z-index: 999">
@@ -407,9 +410,10 @@
     <div class="form-body">
         <h3>VIP REGISTRATION FORM ($10,000+VAT)</h3>
 
-        <form action="https://nigeriaenergysummit.com/registration?form=vip" method="POST">
+        <form action="" method="POST">
 
-            <input type="hidden" name="_token" value="zMwOhH2VgiW1kR11G7pXNn5FOppLFZJPrSctNp58" autocomplete="off">            <div class="col-sm-9 offset-lg-2"><br>
+            <input type="hidden" name="_token" value="zMwOhH2VgiW1kR11G7pXNn5FOppLFZJPrSctNp58" autocomplete="off">            
+            <div class="col-sm-9 offset-lg-2"><br>
 
                 <div class="row">
                     <div class="col-sm-6 mt-3">
@@ -510,7 +514,7 @@
                  <!-- new section -->
                 <div class="tacbox" style="display: flex;align-items:center">
                     <input id="checkbox" type="checkbox" required="">
-                    <label for="checkbox"> I agree to the <a href="https://nigeriaenergysummit.com/registration?form=vip#" id="myBtn">Privacy Policy</a> and <a href="https://nigeriaenergysummit.com/registration?form=vip#" id="myBtn2">Cancellation Policy</a>.</label>
+                    <label for="checkbox"> I agree to the <a href="" id="myBtn">Privacy Policy</a> and <a href="" id="myBtn2">Cancellation Policy</a>.</label>
                 </div>
 
                  <!--Captcha Session-->
@@ -527,10 +531,56 @@
             <button type="submit" id="submit-btn">NEXT</button>
         </form>
     </div>
+
+                  </div>
+          </div>
+
+
+
+<div id="delegate" class="tab-content" style="margin-top: 30px">
+    <div class="form-container">
+      <!-- Benefits / Description -->
+      <div class="form-benefits">
+        <h3>Purchase a Delegate Pass ($2,000+VAT)</h3>
+        <p class="description">This pass gives you full access to sessions and networking opportunities.</p>
+        <div class="benefits-list">
+          <div class="benefit-item"><i class="fa fa-check-circle"></i> Opening Ceremony</div>
+          <div class="benefit-item"><i class="fa fa-check-circle"></i> Plenary Sessions</div>
+          <div class="benefit-item"><i class="fa fa-check-circle"></i> Networking Events</div>
+          <div class="benefit-item"><i class="fa fa-check-circle"></i> Gala & Award Night</div>
+          <div class="benefit-item"><i class="fa fa-check-circle"></i> Closing Ceremony</div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="form-body">
+        <h3>Delegate Registration Form ($2,000+VAT)</h3>
+        <form action="#" method="POST">
+          <div class="row">
+            <div class="col-sm-6 mt-3">
+              <label for="delegate-organisation" class="h6">Organisation</label>
+              <input type="text" id="delegate-organisation" class="form-control" name="organisation" required>
+            </div>
+            <div class="col-sm-6 mt-3">
+              <label for="delegate-firstname" class="h6">First Name</label>
+              <input type="text" id="delegate-firstname" class="form-control" name="firstname" required>
+            </div>
+            <div class="col-sm-6 mt-3">
+              <label for="delegate-lastname" class="h6">Last Name</label>
+              <input type="text" id="delegate-lastname" class="form-control" name="lastname" required>
+            </div>
+            <div class="col-sm-6 mt-3">
+              <label for="delegate-email" class="h6">E-mail</label>
+              <input type="email" id="delegate-email" class="form-control" name="email" required>
+            </div>
+          </div>
+          <button type="submit" id="delegate-submit-btn">NEXT</button>
+        </form>
+      </div>
+    </div>
+ 
 </div>
-</div>
-</div>
-</section>
+
 </section>
 
 <!--<div id="cookieConsent" class="show">
