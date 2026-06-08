@@ -3005,6 +3005,51 @@
             background: #00693f;
         }
 
+        .speaker-code{
+          display: flex ;
+          justify-content: center;
+          align-items: center;
+        }
+        .ihaveacodecontainer{
+          width: 100%;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        #ihaveagencode h3{
+          font-size: 1.4em;
+          margin-bottom: 1.5em;
+        }
+
+        .speakerinput{
+          width: 100%;
+          height: auto;
+          border: 1px solid rgb(108, 108, 108);
+          border-radius: 6px;
+          text-align: center;
+          outline: none;
+          font-size: clamp(1rem, 3vw, 1.5rem);
+          padding: 0.8em 0.4em;
+          margin-bottom: 2em;
+          background-color: transparent;
+
+        }
+
+        .speakerinput ::placeholder{
+          color : #808080
+        }
+
+        .ihaveacodecontainer button{
+          border: none;
+          background: #00693f;
+          color: white;
+          border-radius: 8px;
+          cursor: pointer;
+          padding: 0.6em 0.8em;
+          font-size: 1em;
+        }
+
         /* Responsive */
         @media(max-width: 768px) {
             .form-container {
