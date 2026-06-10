@@ -1341,6 +1341,12 @@
          font-size: 1.1rem;
          margin-bottom: 1rem;
      }
+     .footer-col span{
+        color: var(--gray);
+         margin-bottom: 1.5rem;
+         font-size: 0.9rem;
+
+     }
 
      .footer-logo {
          display: flex;
@@ -1366,7 +1372,7 @@
          margin-bottom: 0.5rem;
      }
 
-     .footer-links a {
+     .footer-links a, .contact-info a {
          color: var(--gray);
          text-decoration: none;
          transition: var(--transition);
@@ -1394,20 +1400,7 @@
          color: var(--gold);
      }
 
-     .newsletter input {
-         width: 100%;
-         padding: 0.75rem;
-         margin-bottom: 0.75rem;
-         border: none;
-         border-radius: 4px;
-         background: var(--dark-light);
-         color: white;
-         font-size: 0.9rem;
-     }
 
-     .newsletter input::placeholder {
-         color: var(--gray);
-     }
 
      .social-links {
          display: flex;
@@ -1437,10 +1430,13 @@
 
      .copyright {
          text-align: center;
-         padding-top: 2rem;
+         padding-top: 1rem;
          border-top: 1px solid var(--dark-light);
-         color: var(--gray);
+         color: white;
          font-size: 0.8rem;
+     }
+     .copyright p{
+        color: var(--grey);
      }
 
      /* Animations */
